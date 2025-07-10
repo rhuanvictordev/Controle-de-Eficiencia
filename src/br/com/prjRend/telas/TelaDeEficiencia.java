@@ -888,7 +888,7 @@ public class TelaDeEficiencia extends javax.swing.JFrame {
             }
         };
 
-        scheduler.scheduleAtFixedRate(countTask, 0, 100, TimeUnit.MILLISECONDS);
+        scheduler.scheduleAtFixedRate(countTask, 0, 1, TimeUnit.SECONDS);
     }
 
     // para o tempo de trabalho
